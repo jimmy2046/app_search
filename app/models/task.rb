@@ -1,5 +1,7 @@
 class Task < ApplicationRecord
 
+# I coded data model task.rb    
+    
 def self.searching(search)
   if search      
     where('lower(name) LIKE ? OR

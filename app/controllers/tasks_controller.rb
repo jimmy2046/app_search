@@ -1,5 +1,7 @@
 class TasksController < ApplicationController
 
+# I coded task_controller.rb    
+    
 #  def index
 #    @tasks = if params[:term]
 #      Task.where('lower(name) LIKE ?', "%#{params[:term]}%".downcase)
